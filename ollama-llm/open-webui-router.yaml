@@ -4,7 +4,6 @@ metadata:
   name: open-webui-route
   namespace: ollama-llm
 spec:
-  host: open-webui.brunell.lab
   to:
     kind: Service
     name: open-webui-service
